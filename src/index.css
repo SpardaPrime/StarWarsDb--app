@@ -1,0 +1,13 @@
+body{
+  font-family: 'Staatliches', cursive;
+  overflow: auto;
+  height:200%;
+}
+
+a{
+  color:white
+}
+a:hover{
+  color:yellow;
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.error-size{
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.error-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:orange;
+}
+.error-block{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-move{
+		animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+		from {
+                transform: rotate(0deg) scale(1);
+                
+        }
+        50%{
+            transform: rotate(180deg) scale(1.2);
+        }
+		to {
+                transform: rotate(360deg)scale(1);
+                
+		}
+}
